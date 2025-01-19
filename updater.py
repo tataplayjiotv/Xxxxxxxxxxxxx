@@ -23,7 +23,7 @@ session.verify = False
 session.trust_env = False
 session.headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-    "Authorization": bearer R5OtJSLJ6iCS3oSjAtk02N8RugPCQZFi",
+    "Authorization": "bearer R5OtJSLJ6iCS3oSjAtk02N8RugPCQZFi",
 }
 
 def git_commit_and_push():
